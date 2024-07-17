@@ -5,7 +5,7 @@ using MovieRank.Contracts;
 
 namespace MovieRank.Controllers
 {
-    [Route("Movies")]
+    [Route("movies")]
     public class MovieController : Controller
     {
         private readonly IMovieRankService _movieRankService;
